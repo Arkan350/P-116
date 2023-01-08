@@ -1,0 +1,15 @@
+canvas {
+    border: 2px solid grey;
+    animation-name: Arkan;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Arkan{
+    from{
+        box-shadow: 1px 1px 38px rgb(255, 255, 255);
+    }
+    to{
+        box-shadow: 1px 1px 38px blue;
+    }
+}
